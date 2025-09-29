@@ -4,6 +4,15 @@ This repository contains utilities for analysing the bankruptcy dataset composed
 of Excel workbooks organised under the `tesi/Attive_complete` and
 `tesi/Fallite_complete` directories.
 
+## Installazione
+
+Per eseguire lo script assicurati di avere Python 3.9+ e installa le
+dipendenze una sola volta:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 ## MLP training script
 
 `mlp_training.py` loads every sheet from the Excel workbooks, constructs the
